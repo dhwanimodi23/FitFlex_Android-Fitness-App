@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiveDaySplit"
+    android:background="@drawable/black">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="289dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/baloo"
+            android:text="1. Incline Press, Close-Hand Press, Decline 2. Press, Dumbbell Flys, Pushups, Tricep 3.Extensions, SkullCrushers, Diamond   4.Pushups, Cable Pull Downs"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/baloo"
+            android:text="5 Day Split"
+            android:textColor="#E3ABF1"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="288dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="Day 1 :"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="108dp"
+            android:fontFamily="@font/bungee"
+            android:text="Chest/Triceps"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="289dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/baloo"
+            android:text="1. Incline Press, Close-Hand Press, Decline 2. Press, Dumbbell Flys, Pushups, Tricep 3.Extensions, SkullCrushers, Diamond   4.Pushups, Cable Pull Downs"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="276dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="Day 2 :"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="128dp"
+            android:fontFamily="@font/bungee"
+            android:text="Back/Biceps"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="262dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/baloo"
+            android:text="1. Lat Rows, Cable Rows, Lat Pull                       2. Downs, PullUps, ChinUps, Bicep Curls,   3. Concentration curls, Preacher Curls,     4. Incline Curls, Hammer Curls"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="276dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="Day 3 :"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="@font/bungee"
+            android:text="Shoulder/Triceps"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="270dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/baloo"
+            android:text="1. Arnold Press, Military Press, Cable               2. Pull Downs, SkullCrushers, Close Grip   3.Pushups, Close Grip Bench Press"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="276dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="Day 4 :"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="128dp"
+            android:fontFamily="@font/bungee"
+            android:text="Legs/Biceps"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="272dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="Day 5 :"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="120dp"
+            android:fontFamily="@font/bungee"
+            android:text="Core/Cardio"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:layout_width="265dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="44dp"
+            android:fontFamily="@font/baloo"
+            android:text="1. Planks, Burpees, Reverse Crunches,      2. Running, Jogging, Interval                                 3. Jumping Jacks, Bodyweight Squats"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="127dp"
+            android:layout_height="119dp"
+            app:srcCompat="@drawable/back"
+            tools:layout_editor_absoluteX="-29dp"
+            tools:layout_editor_absoluteY="-19dp"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

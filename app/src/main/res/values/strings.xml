@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyFit</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="workout_timer">Workout Timer</string>
+    <string name="profile_creation">Profile Creation</string>
+    <string name="calorie_calculator">Calorie Calculator</string>
+    <string name="calorie_tracker">Calorie Tracker</string>
+    <string name="training_splits">Training Splits</string>
+    <string name="_60">60</string>
+    <string name="calories_taken">Calories Taken = 0 KCAL</string>
+    <string name="calories">Calories</string>
+    <string name="kcal">KCAL</string>
+    <string name="reset">RESET</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_height_in_cm">Enter Height (in cm)</string>
+    <string name="enter_weight_in_kg">Enter weight (in kg)</string>
+    <string name="enter_gender">Enter Gender</string>
+
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to Say</item>
+    </array>
+    <string name="title_activity_register">Register</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="app_name1">BMI Calculator</string>
+    <string name="_18_5_25_kg_m2">18.5 – 25 kg/m2</string>
+    <string name="normal_bmi_range">Normal BMI range:</string>
+    <string name="recalculate">Recalculate your BMI</string>
+    <string name="calculate">Calculate your BMI</string>
+    <string name="weight">WEIGHT</string>
+    <string name="age">AGE</string>
+    <string name="height">HEIGHT</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="_0cm">0cm</string>
+    <string name="_50">50</string>
+    <string name="_19">19</string>
+    <string name="your_result">Your Result</string>
+    <string name="your_age">Your Age</string>
+    <string name="cm">cm</string>
+</resources>
